@@ -20,9 +20,9 @@ public class Backend {
                 break;
             }
         }
-        int grno=(row/3)*3;//starting row of subgrid the cell belongs to
-        int gcno=(col/3)*3;//starting column of subgrid the cell belongs to
-
+        int grno=(row/3)*3;
+        int gcno=(col/3)*3;
+        
         o:for(int i=grno;i<grno+3;i++)
         {
             for(int j=gcno;j<gcno+3;j++)
@@ -82,6 +82,9 @@ public class Backend {
     }
 
 }
+
+//Rhydberg
+
 /**
 Mild:
 x x 7 x x x 9 x x
